@@ -1,0 +1,35 @@
+{
+  "name": "artibot-crypto",
+  "version": "1.1.0",
+  "description": "Get cryptocurrencies value directly from Discord",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoudronViande24/artibot-crypto.git"
+  },
+  "keywords": [
+    "artibot",
+    "extension",
+    "artivain",
+    "crypto",
+    "cryptocurrency",
+    "coinbase",
+    "discord",
+    "bot",
+    "module",
+    "addon"
+  ],
+  "author": "GoudronViande24",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GoudronViande24/artibot-crypto/issues"
+  },
+  "homepage": "https://github.com/GoudronViande24/artibot-crypto#readme",
+  "dependencies": {
+    "artibot": "^3.0.4"
+  }
+}
