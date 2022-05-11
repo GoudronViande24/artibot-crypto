@@ -43,8 +43,13 @@ export default ({ config: { lang } }) => {
 						option.setName("crypto")
 							.setDescription(localizer._("The cryptocurrency to look for"))
 							.setRequired(true)
-							.addChoice("Bitcoin", "BTC")
-							.addChoice("Ethereum", "ETH")
+							.addChoices({
+								name: "Bitcoin",
+								value: "BTC"
+							}, {
+								name: "Ethereum",
+								value: "ETH"
+							})
 					),
 				mainFunction
 			})
@@ -63,7 +68,7 @@ const localizer = new Localizer({
  */
 async function mainFunction(interaction, { modules, version, config, createEmbed }) {
 	let currencies;
-	
+
 	if (config.crypto && config.crypto.currencies) {
 		currencies = config.crypto.currencies;
 	} else {
