@@ -83,7 +83,7 @@ async function mainFunction(interaction, { modules, version, config, createEmbed
 		const request = await axios(url, {
 			method: "GET",
 			headers: {
-				"User-Agent": `Artibot/${version} artibot-crypto/${modules.find(module => module.id = "crypto").version}`
+				"User-Agent": `Artibot/${version} artibot-crypto/${modules.get("crypto").version}`
 			}
 		});
 
