@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/GoudronViande24/artibot-crypto#readme",
   "dependencies": {
-    "artibot": "^3.0.4"
+    "artibot": "^3.0.5"
   }
 }
