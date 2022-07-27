@@ -4,8 +4,7 @@ import Localizer from "artibot-localizer";
 import path from "path";
 import { fileURLToPath } from "url";
 import { createRequire } from 'module';
-import { SlashCommandBuilder } from "@discordjs/builders";
-import { CommandInteraction } from "discord.js";
+import { CommandInteraction, SlashCommandBuilder } from "discord.js";
 import axios from "axios";
 
 const __filename = fileURLToPath(import.meta.url);
