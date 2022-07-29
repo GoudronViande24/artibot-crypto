@@ -28,6 +28,7 @@ export default ({ config: { lang } }) => {
 		name: "Crypto",
 		version,
 		repo: "GoudronViande24/artibot-crypto",
+		packageName: "artibot-crypto",
 		langs: [
 			"fr",
 			"en"

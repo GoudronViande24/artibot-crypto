@@ -1,6 +1,6 @@
 {
   "name": "artibot-crypto",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Get cryptocurrencies value directly from Discord",
   "main": "index.js",
 	"type": "module",
